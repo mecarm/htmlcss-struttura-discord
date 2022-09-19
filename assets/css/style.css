@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: lightgray;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: aliceblue;
+    
+}
+
+.heading{
+    height: 100px;
+    /* min-width: 100px; */
+    
+}
+
+.small-box{
+    background-color: lightgreen;
+    flex-basis: 20%;
+}
+
+.main-box{
+    background-color: aquamarine;
+    flex-basis: 60%;
+}
+
+.heading-text{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    background-color: aliceblue;
+}
