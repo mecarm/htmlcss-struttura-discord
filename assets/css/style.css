@@ -71,6 +71,10 @@ header{
     background-color: lightgray;
 }
 
+.padding{
+    padding: 30px;
+}
+
 .txt{
     height: 100px;
     background-color: aliceblue;
@@ -80,3 +84,26 @@ header{
     height: 200px;
     background-color: antiquewhite;
 }
+
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+.footer{
+    justify-content: space-between
+}
+
+.social{
+    flex-basis: 30%;
+    background-color: blue;
+    height: 300px;
+}
+
+footer ul {
+    flex-basis: 10%;
+    background-color: aqua;
+    list-style:  none inside;
+    text-align: center;
+}
+
