@@ -70,3 +70,13 @@ header{
 .bg-grey{
     background-color: lightgray;
 }
+
+.txt{
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.img{
+    height: 200px;
+    background-color: antiquewhite;
+}
