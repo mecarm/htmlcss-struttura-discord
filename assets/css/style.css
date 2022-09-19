@@ -88,6 +88,7 @@ header{
 footer{
     background-color: #23272A;
     color: white;
+    
 }
 
 .footer{
@@ -107,3 +108,10 @@ footer ul {
     text-align: center;
 }
 
+div.footer {
+    border-bottom: 1px solid #7289DA;
+}
+
+div.end{
+    justify-content: space-between;
+}
