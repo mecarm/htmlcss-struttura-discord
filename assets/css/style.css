@@ -16,9 +16,6 @@ header{
 .flex-row{
     display: flex;
     flex-direction: row;
-    height: 100px;
-    background-color: aliceblue;
-    
 }
 
 .heading{
@@ -43,4 +40,33 @@ header{
     text-align: center;
     height: 400px;
     background-color: aliceblue;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.img-txt{
+    height: 400px;
+    justify-content: space-between;
+}
+
+.img-box{
+    flex-basis: 50%;
+    background-color: antiquewhite;
+}
+
+.text-box{
+    flex-basis: 43%;
+    background-color: aquamarine;
+}
+
+.reverse{
+    order: 1
+}
+
+.bg-grey{
+    background-color: lightgray;
 }
