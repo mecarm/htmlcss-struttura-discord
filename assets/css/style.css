@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-main{
+header{
     background-color: lightgray;
 }
 
-header{
+nav{
     width: 80%;
     margin: auto;
 }
@@ -20,8 +20,6 @@ header{
 
 .heading{
     height: 100px;
-    /* min-width: 100px; */
-    
 }
 
 .small-box{
@@ -88,7 +86,6 @@ header{
 footer{
     background-color: #23272A;
     color: white;
-    
 }
 
 .footer{
